@@ -1,0 +1,13 @@
+<?php 
+	session_start();
+	unset($_SESSION['user_id']);
+	unset($_SESSION['first_name']);
+	unset($_SESSION['booking']['pax']);
+	unset($_SESSION['booking']['ttlpax']);
+	unset($_SESSION['booking']['start_tour']);
+	unset($_SESSION['booking']['end_tour']);
+	unset($_SESSION['booking']['accommodation_id']);
+	unset($_SESSION['booking']['price_id']);
+	unset($_SESSION['booking']['alamat']);
+	header("location:../");
+?>

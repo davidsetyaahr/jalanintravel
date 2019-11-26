@@ -1,0 +1,6 @@
+99 belum verifikasi
+0 belum bayar (booked)
+11 sedang membayar dp20 belum verif 
+1 dicicil
+2 pending
+3 success

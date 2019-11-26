@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../../montserrat-regular/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../../montserrat-regular/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: 'montserratregular';
+}
+.panel-heading{
+	padding-bottom: 10px !important;
+	padding-top: 0px !important;
+}
+.panel-body{
+	padding-top: 20px !important;
+}
+thead{
+	font-weight: bold;
+}
+.mt30{
+    margin-top: 30px;
+}
+.mt15{
+	margin-top: 15px;
+}
+.error{
+    color: red;
+}
+#loading{
+    background: rgba(255,255,255,0.8);
+    width: 100%;
+    height : 100%;
+    z-index: 1000;
+    position: fixed;
+}
+#loading img{
+    width: 120px;
+    margin-top: 20%;
+    z-index: 1;
+}
+#loading p{
+    color : #00aaff;
+    font-size: 20px;
+}
+.form-control{
+  overflow: auto;
+}
+.btn-step{
+    padding-top: 13px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);    
+    padding-bottom: 13px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+.btn-step span{
+    font-size: 15px;
+}
+.brand{
+    background: #28a66d; 
+    padding: 25px 0px;
+}
+.sidebar-scroll{
+    height: 100%;
+}
+.sidebar .nav>li>a.active, .sidebar .nav>li>a:focus{
+    color: #49d295;
+    border-left-color: #49d295;   
+}
+.sidebar .nav>li>a.active i, .sidebar .nav>li>a:focus i, .sidebar .nav>li>a:hover i{
+    color: #49d295;
+
+}
+.logo span{
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 20px;
+    border-bottom: 5px dotted #2b333e;
+    padding-bottom: 5px;
+}
+.logo .first{
+    color: white;
+}
+.logo .secon{
+    color: #2b333e;
+}
+.destinations-img{
+  height: 214px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 40px;
+}
+.destinations-img .layer{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top : 0;
+  left: 0;
+  background : linear-gradient(rgba(30,30,30,0.8),rgba(30,30,30,0.1));
+  z-index: 2;
+}
+.destinations-img .layer .trap{
+  position: absolute;
+  width: 50%;
+  top : 0;
+  left : 0;
+  z-index: 3;
+}
+.destinations-img .layer .trap img{
+  position: absolute;
+  width: 100%;
+  top : 0;
+  left : 0;
+}
+.destinations-img .layer .trap p{
+  position: absolute;
+  width: 100%;
+  top : 0;
+  left : 0;
+  color: #28a66d;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top : 5px;
+}
+.destinations-img .bottom{
+  width: 100%;
+  height: 25%;
+  position: absolute;
+  bottom : 0;
+  left: 0;
+  background : linear-gradient(rgba(30,30,30,0.01),rgba(30,30,30,0.9));
+  z-index: 2;
+  color : white;
+}
+.destinations-img .bottom span{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 17px;
+  margin-bottom : 13px;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+.destinations-img:hover .bottom span a{
+  text-decoration: none;
+}
+.destinations-img img.transition05{
+  transform: scale(1.8);
+}
+.destinations-img:hover img.transition05{
+  transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  -o-transform: scale(1.4);
+}
+.transition05{
+  transition: all.5s ease;
+  -webkit-transition: all.5s ease;
+  -moz-transition: all.5s ease;
+  -o-transition: all.5s ease;
+}
+.destinations-img .layer .check{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    transform: translate(50%,50%);
+    opacity: 0;
+}
+.destinations-img .layer .check.show{
+    opacity: 1;
+    color: #38cf8b;
+}
+.destinations-img:hover .layer .check{
+  transition: all.5s ease;
+  -webkit-transition: all.5s ease;
+  -moz-transition: all.5s ease;
+  -o-transition: all.5s ease;
+  opacity: 1;
+}
+.step{
+  display: inline-block;
+  padding: 3px;
+  margin : 0px 2px;
+  color: #34495e;
+  text-transform: uppercase;
+  font-weight: bold;
+  border : 2px solid #34495e;
+  border-radius: 3px;
+}
+.step:hover{
+  color: #34495e;
+  background: #49d295;
+}
+.step.active{
+  background: #49d295;
+  color : #34495e;
+}
+.btn-success{
+  background: #28a66d;
+  border-color : #28a66d;
+}
+.btn-success:hover{
+  background: #269b67;
+  border-color : #269b67;
+}
+.color-green{
+  color: #49d295;
+}
+.color-orange{
+  color: #ff5722;
+}
+.color-grey{
+  color: #80828e;
+}
+.color-blue{
+  color: #34495e;
+}
